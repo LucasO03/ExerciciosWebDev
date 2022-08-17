@@ -1,0 +1,56 @@
+@model OperacoesBasicas
+@{
+    ViewData["Title"] = "Operadores Matemáticos";
+}
+
+<section class="bg-dark text-white text-center py-3">
+    <div class="container d-flex align-items-center flex-column">
+        <h1 class="text-uppercase mb-3">Operadores Matemáticos</h1>
+        <p class="font-weight-light fs-2">Operações Básicas</p>
+    </div>
+</section>
+
+<div class="container mt-4">
+    <div class="row justify-content-md-center">
+        <form method="post" class="col-lg-8 col-md-12">
+            <p class="mb-5">
+                Algoritimo que realiza Operações Básicas de matemática (Adição / Subtração / Divisão / Multiplicação).
+            </p>
+            <div class="row mb-4 mt-5">
+                <div class="col">
+                    <label asp-for="Valor1" class="form-label"></label>
+                    <input asp-for="Valor1" class="form-control">
+                    <span asp-validation-for="Valor1" class="text-danger"></span>
+                </div>
+                <div class="col">
+                    <label asp-for="Valor2" class="form-label"></label>
+                    <input asp-for="Valor2" class="form-control">
+                    <span asp-validation-for="Valor2" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="row mb-4">
+                <div class="col">
+                    <label asp-for="ResultadoSoma" class="form-label"></label>
+                    <input asp-for="ResultadoSoma" class="form-control" disabled>
+                </div>
+                <div class="col">
+                    <label asp-for="ResultadoSubtracao" class="form-label"></label>
+                    <input asp-for="ResultadoSubtracao" class="form-control" disabled>
+                </div>
+                <div class="col">
+                    <label asp-for="ResultadoDivisao" class="form-label"></label>
+                    <input asp-for="ResultadoDivisao" class="form-control" disabled>
+                </div>
+                <div class="col">
+                    <label asp-for="ResultadoMultiplicacao" class="form-label"></label>
+                    <input asp-for="ResultadoMultiplicacao" class="form-control" disabled>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Calcular</button>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
