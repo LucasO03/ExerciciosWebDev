@@ -13,7 +13,7 @@
     <div class="row">
         <div class="col-lg-4 col-md-6 col-sm-12">
             <div class="card" style="padding:0;">
-                <img src="~/img/media.jpg" class="card-img-top" alt="Média Escolar" height="210">
+                <img src="@Url.Content("~/img/media.jpg")" class="card-img-top" alt="Média Escolar" height="210">
                 <div class="card-body">
                     <h5 class="card-title text-center">Escola</h5>
                     <p class="card-text">Média aritméticas de 3 notas obtidas por um aluno em um bimestre.
@@ -35,10 +35,10 @@
         </div>
         <div class="col-lg-4 col-md-6 col-sm-12">
             <div class="card" style="padding:0">
-                <img src="@Url.Content("https://thumbs.dreamstime.com/b/blocos-de-apartamentos-da-crian%C3%A7a-2747858.jpg")" class="card-img-top" alt="Expressão Matemática" height="210">
+                <img src="@Url.Content("~/img/IMC.jpg")" class="card-img-top" alt="Expressão Matemática" height="210">
                 <div class="card-body">
-                    <h5 class="card-title text-center">Operações Básicas</h5>
-                    <p class="card-text">Informado 2 números inteiros positivos, calcule a as quatro Operações Básicas.
+                    <h5 class="card-title text-center">Cálculo IMC</h5>
+                    <p class="card-text">Dados o peso e altura de um indivíduo, calcule seu Índice de Massa Corporal.
                     </p>
                     <a asp-controller="Matematicos" asp-action="Exercicio3" class="btn btn-primary">Abrir</a>
                 </div>

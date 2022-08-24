@@ -1,6 +1,7 @@
+
 using System.ComponentModel.DataAnnotations;
 
-namespace Exercicios.Models
+namespace Exercicio.Models
 {
     public class Partida
     {
@@ -25,17 +26,17 @@ namespace Exercicios.Models
         public int GolsTime2 { get; set; } = 0;
         
 		public string Resultado 
-        {
+        { 
             get 
             {
-                if (GolsTime1 > GolsTime2)
-                    return $"Vitória do {Time1}";
+                if(GolsTime1 > GolsTime2)
+                    return $"Vitória do {Time1}" ;
                 else
-                    if (GolsTime2 > GolsTime1)
-                        return $"Vitória do {Time2}";
+                    if (GolsTime2 > GolsTime1) 
+                        return $"Vitória do {Time2}" ;
                     else
                         return $"Empate entre {Time1} e {Time2}";
-            }
-        }
+        }}
     }
 }
+

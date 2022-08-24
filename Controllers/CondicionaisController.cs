@@ -2,10 +2,11 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Exercicios.Models;
+using Exercicio.Models;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Exercicios.Controllers
+
+namespace Exercicio.Controllers
 {
     public class CondicionaisController : Controller
     {
@@ -13,6 +14,7 @@ namespace Exercicios.Controllers
         {
             return View();
         }
+
         [HttpGet]
         public IActionResult CondicionalIf()
         {
@@ -30,5 +32,13 @@ namespace Exercicios.Controllers
         {
             return View();
         }
+
+        [HttpPost]
+        public IActionResult CondicionalSwitch(Pedido pedido)
+        {
+            return View(pedido);
+        }
+
+       
     }
 }

@@ -6,12 +6,12 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "Exercicios/1.0.0": {
+      "Exercicio/1.0.0": {
         "dependencies": {
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "6.0.7"
         },
         "runtime": {
-          "Exercicios.dll": {}
+          "Exercicio.dll": {}
         }
       },
       "Humanizer.Core/2.2.0": {
@@ -1994,7 +1994,7 @@
     }
   },
   "libraries": {
-    "Exercicios/1.0.0": {
+    "Exercicio/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

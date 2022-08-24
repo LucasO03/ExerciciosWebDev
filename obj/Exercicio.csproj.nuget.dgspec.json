@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\etec\\Desktop\\Exercicios\\Exercicios.csproj": {}
+    "C:\\Users\\etec\\Desktop\\Exercicio\\Exercicio.csproj": {}
   },
   "projects": {
-    "C:\\Users\\etec\\Desktop\\Exercicios\\Exercicios.csproj": {
+    "C:\\Users\\etec\\Desktop\\Exercicio\\Exercicio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\etec\\Desktop\\Exercicios\\Exercicios.csproj",
-        "projectName": "Exercicios",
-        "projectPath": "C:\\Users\\etec\\Desktop\\Exercicios\\Exercicios.csproj",
+        "projectUniqueName": "C:\\Users\\etec\\Desktop\\Exercicio\\Exercicio.csproj",
+        "projectName": "Exercicio",
+        "projectPath": "C:\\Users\\etec\\Desktop\\Exercicio\\Exercicio.csproj",
         "packagesPath": "C:\\Users\\etec\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\etec\\Desktop\\Exercicios\\obj\\",
+        "outputPath": "C:\\Users\\etec\\Desktop\\Exercicio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\etec\\AppData\\Roaming\\NuGet\\NuGet.Config",

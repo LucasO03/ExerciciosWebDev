@@ -1,8 +1,8 @@
 ﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using Exercicios.Models;
+using Exercicio.Models;
 
-namespace Exercicios.Controllers;
+namespace Exercicio.Controllers;
 
 public class HomeController : Controller
 {
@@ -17,9 +17,8 @@ public class HomeController : Controller
     {
         return View();
     }
-
     [HttpGet]
-    public IActionResult SobreMim()
+     public IActionResult SobreMim()
     {
         return View();
     }
